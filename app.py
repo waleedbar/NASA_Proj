@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify, render_template
 app = Flask(__name__)
 
 # --- تحميل النموذج المحفوظ ---
-MODEL_PATH = 'exoplanet_stacking_model_90plus.pkl'
+MODEL_PATH = 'exoplanet_model_light.pkl'
 model_package = None
 
 try:
